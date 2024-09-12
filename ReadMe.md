@@ -12,6 +12,11 @@ Notes:
 
 # How To
 
+## Create the cvlc user
+1. First create the user with the name `cvlc` with this command:
+`sudo adduser cvlc`
+
+
 ## mount-usb.sh
 You need to mount your USB device to a given folder. From there, the execution script will read from this folder to find your videos.
 
