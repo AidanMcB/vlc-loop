@@ -41,11 +41,3 @@ This reads from the folder `/media/beachluigi/usb_videos` and plays all the vide
 
 3. Execute the script with the following command
 `sudo /usr/local/bin/play-from-folder.sh`
-
-
-# D-Bus Issues
-D-Bus is often user for communication between applications in a desktop env.
-Common when running from SSH with proper desktop session
-
-`sudo apt-get install xvfb`
-update the script to use `xvfb`
